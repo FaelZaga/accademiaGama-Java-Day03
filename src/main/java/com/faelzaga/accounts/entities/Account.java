@@ -38,11 +38,11 @@ public class Account {
         this.name = name;
     }
 
-    public double getBalance() {
+    protected double getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    protected void setBalance(double balance) {
         this.balance = balance;
     }
 
