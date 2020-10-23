@@ -6,8 +6,16 @@ public class SavingsAccount extends Account {
         super(name, balance);
     }
 
-    @Override
     public String getType() {
         return "SavingsAccount";
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "name='" + getName() + '\'' +
+                ", balance=" + getBalance() +
+                ", type=" + getType() +
+                '}';
     }
 }

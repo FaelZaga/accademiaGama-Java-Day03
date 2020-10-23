@@ -13,8 +13,16 @@ public class CheckingAccount extends Account {
         }
     }
 
-    @Override
     public String getType() {
         return "CheckingAccount";
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "name='" + getName() + '\'' +
+                ", balance=" + getBalance() +
+                ", type=" + getType() +
+                '}';
     }
 }

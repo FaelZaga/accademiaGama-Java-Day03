@@ -1,6 +1,6 @@
 package main.java.com.faelzaga.accounts.entities;
 
-public class Account {
+public abstract class Account {
     private String name;
     private double balance;
 
@@ -24,10 +24,6 @@ public class Account {
             balance -= amount;
             acc.deposit(amount);
         }
-    }
-
-    public String getType() {
-        return "OrdinaryAccount";
     }
 
     public String getName() {

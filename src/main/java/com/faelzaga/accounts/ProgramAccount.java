@@ -10,8 +10,8 @@ public class ProgramAccount {
         Account acc01 = new CheckingAccount("Fulano",2000.00);
         Account acc02 = new SavingsAccount("Cicrano",1200.00);
 
-        System.out.println("Acc01: "+acc01.getType());
-        System.out.println("Acc02: "+acc02.getType());
+        System.out.println(acc01);
+        System.out.println(acc02);
 
         System.out.println(acc01);
         System.out.println(acc02);
